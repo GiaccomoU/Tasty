@@ -8,42 +8,57 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.electiva.agile.MainActivity"
-    android:background="#7ab8c7">
+    android:background="#b4f1fd">
 
-    <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="27dp" />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnHome"
+        android:src="@mipmap/h_home"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentBottom="true" />
 
-    <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="New Button"
-        android:id="@+id/button2"
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnHeart"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/button"
-        android:layout_marginLeft="30dp" />
+        android:layout_toEndOf="@+id/btnCategory"
+        android:src="@mipmap/h_heart"
+        android:layout_marginLeft="50dp"
+        android:onClick="irFavoritos" />
 
-    <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="New Button"
-        android:id="@+id/button3"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/button2"
-        android:layout_marginLeft="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Start"
+        android:id="@+id/Inicio"
+        android:autoText="false"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
-    <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="New Button"
-        android:id="@+id/button4"
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnSearch"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/button3"
-        android:layout_marginLeft="30dp" />
+        android:layout_toEndOf="@+id/btnHome"
+        android:src="@mipmap/h_search"
+        android:layout_marginLeft="50dp"
+        android:onClick="irBusqueda" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnCategory"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btnSearch"
+        android:layout_marginLeft="50dp"
+        android:src="@mipmap/h_category"
+        android:onClick="irCategorias" />
+
 </RelativeLayout>
 
