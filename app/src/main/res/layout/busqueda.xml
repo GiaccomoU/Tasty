@@ -48,7 +48,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Search"
             android:id="@+id/textView3"
             android:autoText="false"
@@ -98,7 +97,7 @@
         android:text="Breakfast"
         android:id="@+id/btnBreakfast"
         android:layout_gravity="center_horizontal"
-        android:background="transparent"
+        android:background="#FFFFFF"
         android:textSize="18dp"
         android:layout_weight="0.11"
         android:onClick="irVideo" />
@@ -109,7 +108,7 @@
         android:text="Dinner-Lunch"
         android:id="@+id/btndinner"
         android:layout_weight="0.11"
-        android:background="transparent"
+        android:background="#FFFFFF"
         android:textSize="18dp"
         android:onClick="irVideo" />
 
@@ -119,7 +118,7 @@
         android:text="Desserts"
         android:id="@+id/btnDesserts"
         android:layout_weight="0.11"
-        android:background="transparent"
+        android:background="#FFFFFF"
         android:textSize="18dp"
         android:onClick="irVideo" />
 
@@ -130,19 +129,8 @@
         android:id="@+id/btnDrinks"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.11"
-        android:background="transparent"
+        android:background="#FFFFFF"
         android:textSize="18dp"
-        android:onClick="irVideo" />
-
-    <Button
-        android:layout_width="384dp"
-        android:layout_height="50dp"
-        android:text="Search"
-        android:id="@+id/btnSearch"
-        android:layout_gravity="center_horizontal"
-        android:textSize="18dp"
-        android:layout_weight=".11"
-        android:background="transparent"
         android:onClick="irVideo" />
 
 </LinearLayout>
